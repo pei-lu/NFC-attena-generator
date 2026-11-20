@@ -1,0 +1,31 @@
+NFC Antenna Report
+==================
+Inputs
+  Target frequency   : 13.56 MHz
+  Turns              : 5
+  Outer size         : 50 x 50 mm
+  Copper             : 0.5 oz (17.4 um)
+  Trace width/space  : 15 mil / 15 mil
+  Chip capacitance   : 0 pF
+  Terminals          : middle of a length side, outer end bent out by 1 mm (chip_inside=1)
+  Corner arcs        : concentric, innermost diameter 2 mm, outermost diameter 8.1 mm (centerline)
+  Lead bend radius   : 1 mm (= opening gap)
+
+Geometry
+  Inner opening      : 43.14 x 42.38 mm
+  Trace length       : 909.5 mm (excl. back-side jumper)
+  Conductor area     : 0.00663 mm^2 (cross-section)
+
+Electrical (at target frequency)
+  Inductance L       : 2.807 uH
+  Resistance DC      : 2359.7 mOhm
+  Resistance AC      : 3687.4 mOhm (skin effect)
+  Reactance XL       : 239.17 Ohm
+  Impedance |Z|      : 239.20 Ohm  (= 3.687 + j239.17)
+  Quality factor Q   : 64.9 (unloaded)
+
+Tuning
+  Total C to resonate: 49.07 pF
+  External C needed  : 49.07 pF
+
+Note: L is a modified-Wheeler estimate (~5-10% typical error); tune with a VNA.
